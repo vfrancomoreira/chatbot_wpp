@@ -1,9 +1,0 @@
-1 Abrir o site https://web.whatsapp.com/
-2 Capturar o QR code
-3 Buscar a bolinha verde de notificação
-4 Clicar em cima da bolinha
-5 Pegar o contaro da pessoa que enviou
-6 Pegar a ultima mensagem dessa pessoa
-7 Responder a mensagem
-8 Voltar para o contato padrão
-9 ...aguardando novas mensagens
