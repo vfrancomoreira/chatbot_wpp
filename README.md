@@ -1,6 +1,23 @@
 # Chat de atendimento automático - WhatsApp
 Chat de atendimento automático usando API e PHP junto ao Python com a biblioteca Selenium.
 
+### Requisitos
+- Python == 3.9
+- ... 
+
+### Configuração
+1. Instalar o python
+
+### Importação
+```python
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+import requests
+```
+
+## Passos
+
 ### Abrir o site do WhatsApp.
 1. Capturar QR Code.<br>
 <img src="img/captura_qrCode.png" alt="Capturar QR Code" width="250" height="200">
