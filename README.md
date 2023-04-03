@@ -1,6 +1,6 @@
-# Chat de atendimento automático - WhatsApp
-Automatizando tarefas que pode ser usados em delivery ou entrega de conteúdo do marketing digital. Usando API e PHP integrado ao Python com a biblioteca Selenium e Requests.
-### CONFIGURAÇÕES
+# <b>Chat de atendimento automático - WhatsApp</b>
+Automatizando tarefas que pode ser usados em delivery ou entrega de conteúdo do marketing digital. Usando API e PHP integrado ao Python com a biblioteca Selenium e Requests.<br><br>
+# <b>CONFIGURAÇÕES</b>
 1. Instalar o Python == 3.9 e as seguintes bibliotecas:<br>
     ```python
     pip install selenium
@@ -22,10 +22,10 @@ Automatizando tarefas que pode ser usados em delivery ou entrega de conteúdo do
     ```
 
 3. Instalar o XAMPP<br>
-3.1 Depois de fazer a instalação sempre que utilizar o programa ative o Apache e o MySQL.<br>
-<n><img src="img/xampp_2.png" alt="Capturar QR Code" width="250" height="200">
+3.1 Depois de fazer a instalação sempre que utilizar o programa ative o Apache e o MySQL.<br><br>
+<n><img src="img/xampp_2.png" alt="Capturar QR Code" width="250" height="200"><br><br>
 
-### IMPORTAÇÕES 
+# <b>IMPORTAÇÕES</b>
 
 <br>
 
@@ -38,45 +38,47 @@ import requests
 <br>
 
 
-## PASSOS
-<br>
+# <b>FUNCIONAMENTO DO SISTEMA</b>
 
 ### 1. Abrir o site do WhatsApp.
-- Capturar QR Code.<br>
-<n><img src="img/captura_qrCode.png" alt="Capturar QR Code" width="250" height="200">
+- Capturar QR Code para ter acesso ao seu WhatsApp.<br><br>
+<n><img src="img/captura_qrCode.png" alt="Capturar QR Code" width="450" height="400">
 
 
 ### 2. Pegar a bolinha verde.
-- Clicar em cima da bolinha em caso de nova mensagem.<br>
-<n><img src="img\bolinhaverde.png" alt="Capturar Bolinha" width="350" height="50">
+- Clicar em cima da bolinha em caso de nova mensagem.<br><br>
+<n><img src="img\bolinhaverde.png" alt="Capturar Bolinha" width="350" height="50"><br><br>
 
 ### 3. Pegar o telefone do cliente.
-- Pegar o nome do contato da pessoa que enviou a mensagem e exibi-lá no terminal.<br>
-<n><img src="img\telefone_cliente.png" alt="Capturar Nome" width="350" height="50">
+- Pegar o nome do contato da pessoa que enviou a mensagem e exibi-lá no terminal.<br><br>
+<n><img src="img\telefone_cliente.png" alt="Capturar Nome" width="500" height="60"><br><br>
 
 ### 4. Pegar a mensagem.
-- Pegar a ultima mensagem do cliente e exibir ao terminal.<br>
-<n><img src="img\ultima_msg.png" alt="Capturar Mensagem" width="200" height="80"><br>
-<n> No exemplo acima, o usuário vai receber uma mensagem de boas vindas. Após isso, ele começará a interagir com o robô, através dos números passados no menu em PHP.<br>
+- Pegar a ultima mensagem do cliente e exibir ao terminal.<br><br>
+<n><img src="img\ultima_msg.png" alt="Capturar Mensagem" width="200" height="100"><br><br>
+<n> No exemplo acima, o usuário vai receber uma mensagem de boas vindas. Após isso, ele começará a interagir com o robô, através dos números passados no menu em PHP.<br><br>
     ```php
-    "Olá, obrigado por entrar em contato com a Pizzaria GitHub.
+    <?php
+    $menu = "Olá, obrigado por entrar em contato com a Pizzaria GitHub.
     Já vamos começar seu atendimento.
     Escolha a opção de sua prefêrencia.
     ----------------Pizza---------------
     *1* - Pizza de mussarela --- R$20,00
     *2*- Pizza de calabresa --- R$20,00";
+    ?>
     ```
-
+<br>
 
 ### 5. Responder a mensagem.<br>
 - As respostas são realizadas internamente através do PHP e o MySQL, interagindo com o Python e a biblioteca requests que faz o 'papel' de se comunicar com servidor. Neste caso solicitaremos do que chamamos de verbo 'HTTP GET' e tem como serviço de se comunicar com as mensagens guardadas ao banco de dados ligado ao servidor através do PHP e MySQL.<br>
-<n><img src="img\contato_padrao.png" alt="Capturar Mensagem" width="355" height="50">
+<n><img src="img\resposta.png" alt="Capturar Mensagem" width="380" height="170">
 
 
 ### 6. Contato padrão
 - Voltar para o contato padrão fixado ao topo(uma conversa com você mesmo). Para fazer isso basta mandar uma mensagem para o seu próprio numero de telefone.<br>
+<n><img src="img\contato_padrao.png" alt="Capturar Mensagem" width="355" height="60">
+
 
 ### 7. Aguardando novas mensagens.<br>
-- ... 
-
+- Neste ultimo passo, ficará em loop até que um contato nos envie uma nova mensagem.<br>
 <n><img src="img\buscando_mensagens.png" alt="Capturar Bolinhha" width="260" height="130">
