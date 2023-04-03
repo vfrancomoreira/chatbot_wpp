@@ -6,6 +6,7 @@ Automatizando tarefas que pode ser usados em delivery ou entrega de conteúdo do
     pip install selenium
     pip install requests
     ```
+<br>
 
 2. Instalar o WebDriver de sua preferência do seu navegador.<br>
 <n>No meu caso foi o  Microsoft Edge Driver(recomendável a versão Beta): https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ <br><br>
