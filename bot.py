@@ -30,7 +30,7 @@ def bot():
         print(contato_cliente)
         time.sleep(5)
         
-        # Pega a mensagem
+        # Pega a ultima mensagem do cliente
         class_ultima_mensagem = '_1Gy50' # div._1Gy50
         todas_msg = driver.find_elements(By.CLASS_NAME, class_ultima_mensagem)
         todas_msg_txt = [e.text for e in todas_msg]
