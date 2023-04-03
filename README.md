@@ -52,15 +52,25 @@ import requests
 
 ### 3. Pegar o telefone do cliente.
 - Pegar o nome do contato da pessoa que enviou a mensagem e exibi-lá no terminal.<br>
-<n><img src="img\telefone_cliente.png" alt="Capturar Nome" width="370" height="60">
+<n><img src="img\telefone_cliente.png" alt="Capturar Nome" width="350" height="50">
 
 ### 4. Pegar a mensagem.
 - Pegar a ultima mensagem do cliente e exibir ao terminal.<br>
-<n><img src="img\bolinhaverde.png" alt="Capturar Mensagem" width="355" height="50">
+<n><img src="img\ultima_msg.png" alt="Capturar Mensagem" width="200" height="80"><br>
+<n> No exemplo acima, o usuário vai receber uma mensagem de boas vindas. Após isso, ele começará a interagir com o robô, através dos números passados no menu em PHP.<br>
+    ```php
+    "Olá, obrigado por entrar em contato com a Pizzaria GitHub.
+    Já vamos começar seu atendimento.
+    Escolha a opção de sua prefêrencia.
+    ----------------Pizza---------------
+    *1* - Pizza de mussarela --- R$20,00
+    *2*- Pizza de calabresa --- R$20,00";
+    ```
+
 
 ### 5. Responder a mensagem.<br>
-- As respostas são realizadas internamente através do PHP e o MySQL, interagindo com o Python e a biblioteca requests que faz o 'papel' de se comunicar com servidor. Neste caso solicitaremos do que chamamos de verbo 'HTTP GET' e tem como serviço de se comunicar com as mensagens guardadas ao banco de dados ligado ao servidor através do XAMPP.<br>
-<n><img src="img\bolinhaverde.png" alt="Capturar Mensagem" width="355" height="50">
+- As respostas são realizadas internamente através do PHP e o MySQL, interagindo com o Python e a biblioteca requests que faz o 'papel' de se comunicar com servidor. Neste caso solicitaremos do que chamamos de verbo 'HTTP GET' e tem como serviço de se comunicar com as mensagens guardadas ao banco de dados ligado ao servidor através do PHP e MySQL.<br>
+<n><img src="img\contato_padrao.png" alt="Capturar Mensagem" width="355" height="50">
 
 
 ### 6. Contato padrão
