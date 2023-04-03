@@ -43,24 +43,24 @@ import requests
 
 ### 1. Abrir o site do WhatsApp.
 - Capturar QR Code.<br>
-<img src="img/captura_qrCode.png" alt="Capturar QR Code" width="250" height="200">
+<n><img src="img/captura_qrCode.png" alt="Capturar QR Code" width="250" height="200">
 
 
 ### 2. Pegar a bolinha verde.
 - Clicar em cima da bolinha em caso de nova mensagem.<br>
-<img src="img\bolinhaverde.png" alt="Capturar Bolinha" width="350" height="50">
+<n><img src="img\bolinhaverde.png" alt="Capturar Bolinha" width="350" height="50">
 
 ### 3. Pegar o telefone do cliente.
 - Pegar o nome do contato da pessoa que enviou a mensagem e exibi-lá no terminal.<br>
-<img src="img\telefone_cliente.png" alt="Capturar Nome" width="370" height="60">
+<n><img src="img\telefone_cliente.png" alt="Capturar Nome" width="370" height="60">
 
 ### 4. Pegar a mensagem.
 - Pegar a ultima mensagem do cliente e exibir ao terminal.<br>
-<img src="img\bolinhaverde.png" alt="Capturar Mensagem" width="355" height="50">
+<n><img src="img\bolinhaverde.png" alt="Capturar Mensagem" width="355" height="50">
 
 ### 5. Responder a mensagem.<br>
 - As respostas são realizadas internamente através do PHP e o MySQL, interagindo com o Python e a biblioteca requests que faz o 'papel' de se comunicar com servidor. Neste caso solicitaremos do que chamamos de verbo 'HTTP GET' e tem como serviço de se comunicar com as mensagens guardadas ao banco de dados ligado ao servidor através do XAMPP.
-<img src="img\bolinhaverde.png" alt="Capturar Mensagem" width="355" height="50">
+<n><img src="img\bolinhaverde.png" alt="Capturar Mensagem" width="355" height="50">
 
 
 ### 6. Contato padrão
@@ -69,4 +69,4 @@ import requests
 ### 7. Aguardando novas mensagens.<br>
 - ... 
 
-<img src="img\buscando_mensagens.png" alt="Capturar Bolinhha" width="260" height="130">
+<n><img src="img\buscando_mensagens.png" alt="Capturar Bolinhha" width="260" height="130">
