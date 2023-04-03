@@ -23,7 +23,7 @@ Automatizando tarefas que pode ser usados em delivery ou entrega de conteúdo do
 
 3. Instalar o XAMPP<br>
 3.1 Depois de fazer a instalação sempre que utilizar o programa ative o Apache e o MySQL.<br>
-<img src="img/xampp_2.png" alt="Capturar QR Code" width="250" height="200">
+<n><img src="img/xampp_2.png" alt="Capturar QR Code" width="250" height="200">
 
 ### IMPORTAÇÕES 
 
