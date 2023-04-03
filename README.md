@@ -1,7 +1,7 @@
 # <b>Chat de atendimento automático - WhatsApp</b>
 Automatizando tarefas que pode ser usados em delivery ou entrega de conteúdo do marketing digital. Usando API e PHP integrado ao Python com a biblioteca Selenium e Requests.<br><br>
 # <b>CONFIGURAÇÕES</b>
-1. Instalar o Python == 3.9 e as seguintes bibliotecas:<br>
+1. Instalar o Python == 3.9 e as seguintes bibliotecas:<br><br>
     ```python
     pip install selenium
     pip install requests
