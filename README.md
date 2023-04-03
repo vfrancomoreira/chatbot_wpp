@@ -59,7 +59,7 @@ import requests
 <n><img src="img\bolinhaverde.png" alt="Capturar Mensagem" width="355" height="50">
 
 ### 5. Responder a mensagem.<br>
-- As respostas são realizadas internamente através do PHP e o MySQL, interagindo com o Python e a biblioteca requests que faz o 'papel' de se comunicar com servidor. Neste caso solicitaremos do que chamamos de verbo 'HTTP GET' e tem como serviço de se comunicar com as mensagens guardadas ao banco de dados ligado ao servidor através do XAMPP.
+- As respostas são realizadas internamente através do PHP e o MySQL, interagindo com o Python e a biblioteca requests que faz o 'papel' de se comunicar com servidor. Neste caso solicitaremos do que chamamos de verbo 'HTTP GET' e tem como serviço de se comunicar com as mensagens guardadas ao banco de dados ligado ao servidor através do XAMPP.<br>
 <n><img src="img\bolinhaverde.png" alt="Capturar Mensagem" width="355" height="50">
 
 
