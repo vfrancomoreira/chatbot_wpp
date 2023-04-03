@@ -1,6 +1,19 @@
 # <b>Chat de atendimento automático - WhatsApp</b>
-Automatizando tarefas que pode ser usados em delivery ou entrega de conteúdo do marketing digital. Usando API e PHP integrado ao Python com a biblioteca Selenium e Requests.<br><br>
-# <b>CONFIGURAÇÕES</b>
+Use o WhatsApp automatizado que pode ser usado em delivery ou entrega de conteúdo do marketing digital.Usando API e PHP integrado ao Python com a biblioteca Selenium e Requests.<br><br>
+
+## <b>INDÍCE</b>
+- [O que é o sistema?](#)
+
+- [Configurações](#configurações)
+
+- [Funcionamento do sistema](#funcionamento-do-sistema)
+    - [Abrindo o navegador](#1-abrir-o-site-do-whatsapp)
+    - [Clicando na bolinha verde](#2-pegar-a-bolinha-verde)
+    - [Recuperar o telefone do cliente](#3-pegar-o-telefone-do-cliente)
+
+
+
+## <b>CONFIGURAÇÕES</b>
 1. Instalar o Python == 3.9 e as seguintes bibliotecas:<br><br>
     ```python
     pip install selenium
@@ -9,7 +22,7 @@ Automatizando tarefas que pode ser usados em delivery ou entrega de conteúdo do
 <br>
 
 2. Instalar o WebDriver de sua preferência do seu navegador.<br>
-<n>No meu caso foi o  Microsoft Edge Driver(recomendável a versão Beta): https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ <br><br>
+<n>No meu caso foi o  Microsoft Edge Driver(recomendável a versão Beta): [Microsoft Edge Driver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver//) <br><br>
 
     2.1 Instale o driver compativel com a versão do seu navegador e sistema operacional do seu computador.<br><br>
 
@@ -26,7 +39,7 @@ Automatizando tarefas que pode ser usados em delivery ou entrega de conteúdo do
 3.1 Depois de fazer a instalação sempre que utilizar o programa ative o Apache e o MySQL.<br><br>
 <n><img src="img/xampp_2.png" alt="Capturar QR Code" width="250" height="200"><br><br>
 
-# <b>IMPORTAÇÕES</b>
+## <b>IMPORTAÇÕES</b>
 
 <br>
 
@@ -39,7 +52,7 @@ import requests
 <br>
 
 
-# <b>FUNCIONAMENTO DO SISTEMA</b>
+## <b>FUNCIONAMENTO DO SISTEMA</b>
 
 ### 1. Abrir o site do WhatsApp.
 - Capturar QR Code para ter acesso ao seu WhatsApp.<br><br>
@@ -47,11 +60,11 @@ import requests
 
 
 ### 2. Pegar a bolinha verde.
-- Clicar em cima da bolinha em caso de nova mensagem.<br><br>
+- Clicar na bolinha em caso de nova mensagem.<br><br>
 <n><img src="img\bolinhaverde.png" alt="Capturar Bolinha" width="350" height="50"><br><br>
 
 ### 3. Pegar o telefone do cliente.
-- Pegar o nome do contato da pessoa que enviou a mensagem e exibi-lá no terminal.<br><br>
+- Recuperar o nome do contato que enviou a mensagem e exibi-lá no terminal.<br><br>
 <n><img src="img\telefone_cliente.png" alt="Capturar Nome" width="500" height="60"><br><br>
 
 ### 4. Pegar a mensagem.
@@ -83,3 +96,7 @@ import requests
 ### 7. Aguardando novas mensagens.<br>
 - Neste ultimo passo, ficará em loop até que um contato nos envie uma nova mensagem.<br>
 <n><img src="img\buscando_mensagens.png" alt="Capturar Bolinhha" width="260" height="130">
+
+
+## <b>CRÉDITOS</b>
+## <b>LICENÇA</b>
