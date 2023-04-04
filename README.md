@@ -171,7 +171,7 @@ Se você quiser contribuir para este projeto, aqui estão algumas sugestões de 
 Para contribuir, basta abrir uma issue descrevendo sua sugestão ou problema. Se você quiser fazer uma alteração, faça um fork do repositório, crie um novo branch para suas alterações e envie um pull request. Todas as contribuições são bem-vindas e apreciadas!
 
 ## <b>Histórico de Alterações</b>
-### Versão 1.0.0 (2022/12/2022)
+### Versão 1.0.0 (22/12/2022)
 - Funcionalidade adicionada: Nenhuma alteração realizada.
 
 ## <b>FAQ</b>
