@@ -121,7 +121,7 @@ Caso haja uma nova mensagem, o sistema identifica que ela não foi visualizada e
 <n><img src="img\bolinhaverde.png" alt="Capturar Bolinha" width="350" height="50"><br>
 
 ### Recuperando informações do cliente
-Ao receber uma mensagem, o atendimento automático recupera o nome do contato que a enviou e exibe no terminal.<br><br>
+Ao receber uma mensagem, o atendimento automático recupera o nome do contato que a enviou e exibe no terminal.<br>
 <n><img src="img\telefone_cliente.png" alt="Capturar Nome" width="350" height="50"><br>
 
 ### Recuperando a mensagem
