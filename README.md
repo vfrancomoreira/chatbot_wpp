@@ -8,7 +8,7 @@ Use o WhatsApp automatizado que pode ser usado em delivery ou entrega de conteú
     - [Python](#python)
     - [WebDriver](#webdriver)
     - [XIAMPP](#xampp)
-<br><br>
+<br>
 
 - [Importações](#importações)
 
@@ -19,7 +19,7 @@ Use o WhatsApp automatizado que pode ser usado em delivery ou entrega de conteú
     - [Recuperar a mensagem do cliente](#recuperar-a-mensagem)
     - [Responder a mensagem do cliente](#responder-a-mensagem)
     - [Voltar ao contato pardão](#contato-padrão)
-<br><br>
+<br>
 
 - [Créditos](#créditos)
 
@@ -85,7 +85,7 @@ import requests
 
 ### Recuperar o telefone do cliente.
 - Pegar o nome do contato que enviou a mensagem e exibi-lá no terminal.<br>
-<n><img src="img\telefone_cliente.png" alt="Capturar Nome" width="390" height="60"><br><br>
+<n><img src="img\telefone_cliente.png" alt="Capturar Nome" width="350" height="50"><br><br>
 
 ### Recuperar a mensagem.
 - Pegar a ultima mensagem do cliente e exibir ao terminal.<br>
@@ -105,7 +105,7 @@ import requests
 
 ### Responder a mensagem.<br>
 - As respostas são realizadas internamente através do PHP e o MySQL, interagindo com o Python e a biblioteca requests que faz o 'papel' de se comunicar com servidor. Neste caso solicitaremos do que chamamos de verbo 'HTTP GET' e tem como serviço de se comunicar com as mensagens guardadas ao banco de dados ligado ao servidor através do PHP e MySQL.<br><br>
-<n><img src="img\resposta.png" alt="Capturar Mensagem" width="380" height="170">
+<n><img src="img\resposta.png" alt="Capturar Mensagem" width="350" height="140">
 
 
 ### Contato padrão
