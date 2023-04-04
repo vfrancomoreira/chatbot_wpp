@@ -35,7 +35,7 @@ Para rodar o sistema você deverá instalar a versão 3.9 do Python e as seguint
 pip install selenium
 pip install requests
 ```
-<br>
+
 
 #### <b>WebDriver</b>
 Instale o WebDriver de sua preferência conforme o navegador qyue você está utilizando. No meu caso foi o  Microsoft Edge Driver(recomendável a versão Beta independente do navegador que você irá utilizar): [Microsoft Edge Driver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver//)<br>
@@ -78,15 +78,15 @@ import requests
 
 
 ### Círculo de notificação verde.
-- Caso de nova mensagem o sistema vai identificar que é uma mensagem não vizualizada e ira clicar abrindo a nova conversa.<br>
+- Caso de nova mensagem o sistema vai identificar que é uma mensagem não vizualizada e ira clicar abrindo a nova conversa.<br><br>
 <n><img src="img\bolinhaverde.png" alt="Capturar Bolinha" width="350" height="50"><br><br>
 
 ### Recuperar o telefone do cliente.
-- Pegar o nome do contato que enviou a mensagem e exibi-lá no terminal.<br>
+- Pegar o nome do contato que enviou a mensagem e exibi-lá no terminal.<br><br>
 <n><img src="img\telefone_cliente.png" alt="Capturar Nome" width="350" height="50"><br><br>
 
 ### Recuperar a mensagem.
-- Pegar a ultima mensagem do cliente e exibir ao terminal.<br>
+- Pegar a ultima mensagem do cliente e exibir ao terminal.<br><br>
 <n><img src="img\ultima_msg.png" alt="Capturar Mensagem" width="200" height="100"><br><br>
 <n> No exemplo acima, o usuário vai receber uma mensagem de boas vindas. Após isso, ele começará a interagir com o robô, através dos números passados no menu em PHP.<br><br>
     ```php
@@ -112,8 +112,8 @@ import requests
 
 
 ### Buscando novas mensagens.<br>
-- Neste ultimo passo, ficará em loop até que um contato nos envie uma nova mensagem.<br>
-<n><img src="img\buscando_mensagens.png" alt="Buscando novas mensagem" width="260" height="140"><br><br>
+- Neste ultimo passo, ficará em loop até que um contato nos envie uma nova mensagem.<br><br>
+<n><img src="img\buscando_mensagens.png" alt="Buscando novas mensagem" width="260" height="150"><br><br>
 
 
 ## <b>Créditos</b>
