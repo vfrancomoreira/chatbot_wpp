@@ -8,7 +8,6 @@ Use o WhatsApp automatizado que pode ser usado em delivery ou entrega de conteú
     - [Python](#python)
     - [WebDriver](#webdriver)
     - [XIAMPP](#xampp)
-<br>
 
 - [Importações](#importações)
 
@@ -19,7 +18,6 @@ Use o WhatsApp automatizado que pode ser usado em delivery ou entrega de conteú
     - [Recuperar a mensagem do cliente](#recuperar-a-mensagem)
     - [Responder a mensagem do cliente](#responder-a-mensagem)
     - [Voltar ao contato pardão](#contato-padrão)
-<br>
 
 - [Créditos](#créditos)
 
