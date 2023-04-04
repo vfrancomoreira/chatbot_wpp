@@ -81,7 +81,10 @@ Instale o WebDriver de sua preferência conforme o navegador qyue você está ut
 <n>3. Instale o [XAMPP](https://www.apachefriends.org/pt_br/download.html) um software que contém alguns componentes do servidor web que serão extremamente úteis para o funcionamento do sistema. Serão utilizados servidores como, Apache e MySQL, veja o exemplo:
 #### <b>XAMPP</b>
 Depois de fazer a instalação, sempre que utilizar o programa ative o Apache e o MySQL.<br><br>
-<n><img src="img/xampp_2.png" alt="Capturar QR Code" width="250" height="200"><br>
+<n><img src="img/xampp_2.png" alt="XAMPP" width="250" height="200"><br>
+
+Ativando você terá acesso ao phpMyAdmin(banco de dados), digite este endereço em seu navegador:<br>
+<img src="img/acesso_ao_banco.png" alt="Acesso" width="250" height="50"><br>
 
 ## <b>Importações</b>
 
