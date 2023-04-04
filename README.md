@@ -1,7 +1,7 @@
 # <b>Chat de atendimento automático - WhatsApp</b>
 Use o WhatsApp automatizado que pode ser usado em delivery ou entrega de conteúdo do marketing digital.Usando API e PHP integrado ao Python com a biblioteca Selenium e Requests.<br><br>
 
-## <b>INDÍCE</b>
+## <b>Indíce</b>
 - [O que é o sistema?](#o-que-é-este-sistema)
 
 - [Configurações](#configurações)
@@ -14,11 +14,11 @@ Use o WhatsApp automatizado que pode ser usado em delivery ou entrega de conteú
 
 - [Funcionamento do sistema](#funcionamento-do-sistema)
     - [Abrindo o navegador](#1-abrir-o-site-do-whatsapp)
-    - [Clicando no círculo verde](#2-pegar-a-bolinha-verde)
-    - [Recuperar o telefone do cliente](#3-pegar-o-telefone-do-cliente)
-    - [Recuperar a mensagem do cliente]()
-    - [Responder a mensagem do cliente]()
-    - [Voltar ao contato pardão]()
+    - [Clicando no círculo verde](#círculo-de-notificação-verde)
+    - [Recuperar o telefone do cliente](#recuperar-o-telefone-do-cliente)
+    - [Recuperar a mensagem do cliente](#recuperar-a-mensagem)
+    - [Responder a mensagem do cliente](#responder-a-mensagem)
+    - [Voltar ao contato pardão](#contato-padrão)
 <br><br>
 
 - [Créditos](#créditos)
@@ -32,16 +32,15 @@ Este sistema é um assistente que permite enviar mensagens no WhatsApp usando um
 
 ## <b>Configurações</b><br><br>
 #### <b>Python</b>
-Para rodar o sistema você deverá instalar a versão 3.9 do Python e as seguintes bibliotecas:
-
-    ```python
-    pip install selenium
-    pip install requests
-    ```
+Para rodar o sistema você deverá instalar a versão 3.9 do Python e as seguintes bibliotecas:<br><br>
+```python
+pip install selenium
+pip install requests
+```
 <br>
 
 #### <b>WebDriver</b>
-Instale o WebDriver de sua preferência conforme o navegador qyue você está utilizando. No meu caso foi o  Microsoft Edge Driver(recomendável a versão Beta independente do navegador que você irá utilizar): [Microsoft Edge Driver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver//) <br><br>
+Instale o WebDriver de sua preferência conforme o navegador qyue você está utilizando. No meu caso foi o  Microsoft Edge Driver(recomendável a versão Beta independente do navegador que você irá utilizar): [Microsoft Edge Driver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver//) <br>
 
 1. Instale o driver compativel com a versão do seu navegador e sistema operacional do seu computador.<br><br>
 
@@ -73,7 +72,7 @@ import requests
 
 
 ## <b>Funcionamento do Sistema</b>
-<br><br>
+<br>
 
 ### Abrir o site do WhatsApp.
 - Capturar QR Code para ter acesso ao seu WhatsApp.<br><br>
@@ -104,17 +103,17 @@ import requests
     ```
 <br>
 
-### 5. Responder a mensagem.<br>
+### Responder a mensagem.<br>
 - As respostas são realizadas internamente através do PHP e o MySQL, interagindo com o Python e a biblioteca requests que faz o 'papel' de se comunicar com servidor. Neste caso solicitaremos do que chamamos de verbo 'HTTP GET' e tem como serviço de se comunicar com as mensagens guardadas ao banco de dados ligado ao servidor através do PHP e MySQL.<br><br>
 <n><img src="img\resposta.png" alt="Capturar Mensagem" width="380" height="170">
 
 
-### 6. Contato padrão
+### Contato padrão
 - Voltar para o contato padrão fixado ao topo(uma conversa com você mesmo). Para fazer isso basta mandar uma mensagem para o seu próprio numero de telefone.<br><br>
 <n><img src="img\contato_padrao.png" alt="Capturar Mensagem" width="355" height="60">
 
 
-### 7. Aguardando novas mensagens.<br>
+### Aguardando novas mensagens.<br>
 - Neste ultimo passo, ficará em loop até que um contato nos envie uma nova mensagem.<br><br>
 <n><img src="img\buscando_mensagens.png" alt="Capturar Bolinhha" width="260" height="130"><br><br>
 
