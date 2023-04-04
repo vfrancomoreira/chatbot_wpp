@@ -21,6 +21,11 @@ Este é um projeto que visa criar um chat de atendimento automático para delive
     - [Responder a mensagem](#responder-a-mensagem)
     - [Retornando ao contato pardão](#retornando-ao-contato-padrão)
     - [Buscando novas mensagens](#buscando-novas-mensagens)
+
+- [Histórico de Alterações](#histórico-de-alterações)
+
+- [FAQ](#faq)
+
 - [Contribuindo](#contribuindo)
 
 - [Créditos](#créditos)
@@ -48,7 +53,7 @@ Este sistema é um assistente que permite enviar mensagens no WhatsApp usando Py
 
 Para instalar e usar o Chat de Atendimento Automático, siga os passos abaixo:
 
-<n>1. Instale o Python e os requisitos necessários na sua máquina: 
+<n>1. Instale o Python versão 3.9 e os requisitos necessários na sua máquina: 
 
 #### <b>Python</b>
 Para rodar o sistema você deverá instalar a versão 3.9 do Python e as seguintes bibliotecas:<br>
@@ -73,7 +78,7 @@ Instale o WebDriver de sua preferência conforme o navegador qyue você está ut
     edge_driver --version
     ```
 
-<n>3. Instale o software que contém alguns componentes do servidor web que serão utilizados durante o funcionamento do sistema como o Apache e o MySQL, veja o exemplo:
+<n>3. Instale o [XAMPP](https://www.apachefriends.org/pt_br/download.html) um software que contém alguns componentes do servidor web que serão extremamente úteis para o funcionamento do sistema. Serão utilizados servidores como, Apache e MySQL, veja o exemplo:
 #### <b>XAMPP</b>
 Depois de fazer a instalação, sempre que utilizar o programa ative o Apache e o MySQL.<br><br>
 <n><img src="img/xampp_2.png" alt="Capturar QR Code" width="250" height="200"><br><br>
@@ -151,6 +156,19 @@ Se você quiser contribuir para este projeto, aqui estão algumas sugestões de 
 - Corrigir erros de digitação
 
 Para contribuir, basta abrir uma issue descrevendo sua sugestão ou problema. Se você quiser fazer uma alteração, faça um fork do repositório, crie um novo branch para suas alterações e envie um pull request. Todas as contribuições são bem-vindas e apreciadas!
+
+## <b>Histórico de Alterações</b>
+- Funcionalidade adicionada: Nenhuma alteração realizada.
+
+## <b>FAQ</b>
+<b>P: Como faço para instalar o sistema?</b><br>
+R: Você precisa seguir os passos descritos na seção de Instalação e Uso do README.md.
+
+<b>P: O que eu preciso para executar o sistema?</b><br>
+R: Você precisa ter o Python, o WebDriver e o XAMPP instalados em seu computador. Todas as informações necessárias para instalação e uso estão disponíveis no README.md.
+
+<b>P: O sistema funciona em sistemas operacionais diferentes do Windows?</b><br>
+R: Sim, o sistema foi testado em sistemas operacionais Windows, MacOS e Linux.
 
 ## <b>Créditos</b>
 Este projeto foi inspirado no Instrutor Victor Souza disponível em [Edita Código](https://editacodigo.com.br/index/), que foi adaptado para atender às necessidades deste projeto.
