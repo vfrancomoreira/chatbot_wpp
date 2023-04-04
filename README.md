@@ -74,9 +74,9 @@ import requests
 ## <b>Funcionamento do Sistema</b>
 
 
-### Abrir o site do WhatsApp.
+### Abrirá o site do WhatsApp.
 - Capturar QR Code para ter acesso ao seu WhatsApp.<br><br>
-<n><img src="img/captura_qrCode.png" alt="Capturar QR Code" width="450" height="400"><br><br>
+<n><img src="img/captura_qrCode.png" alt="Capturar QR Code" width="340" height="290"><br><br>
 
 
 ### Círculo de notificação verde.
@@ -85,7 +85,7 @@ import requests
 
 ### Recuperar o telefone do cliente.
 - Pegar o nome do contato que enviou a mensagem e exibi-lá no terminal.<br>
-<n><img src="img\telefone_cliente.png" alt="Capturar Nome" width="500" height="60"><br><br>
+<n><img src="img\telefone_cliente.png" alt="Capturar Nome" width="390" height="60"><br><br>
 
 ### Recuperar a mensagem.
 - Pegar a ultima mensagem do cliente e exibir ao terminal.<br>
