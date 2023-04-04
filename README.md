@@ -81,7 +81,7 @@ Instale o WebDriver de sua preferência conforme o navegador qyue você está ut
 <n>3. Instale o [XAMPP](https://www.apachefriends.org/pt_br/download.html) um software que contém alguns componentes do servidor web que serão extremamente úteis para o funcionamento do sistema. Serão utilizados servidores como, Apache e MySQL, veja o exemplo:
 #### <b>XAMPP</b>
 Depois de fazer a instalação, sempre que utilizar o programa ative o Apache e o MySQL.<br><br>
-<n><img src="img/xampp_2.png" alt="Capturar QR Code" width="250" height="200"><br><br>
+<n><img src="img/xampp_2.png" alt="Capturar QR Code" width="250" height="200"><br>
 
 ## <b>Importações</b>
 
@@ -100,20 +100,20 @@ import requests
 
 ### Abrindo o WhatsApp
 Para começar a utilizar o atendimento automático, é necessário abrir o site do WhatsApp e capturar o QR Code para ter acesso à sua conta.<br><br>
-<n><img src="img/captura_qrCode.png" alt="Capturar QR Code" width="340" height="290"><br><br>
+<n><img src="img/captura_qrCode.png" alt="Capturar QR Code" width="340" height="290"><br>
 
 
 ### Identificando uma nova mensagem
 Caso haja uma nova mensagem, o sistema identifica que ela não foi visualizada e clica na conversa para abri-la. Isso é indicado por um círculo verde de notificação.<br><br>
-<n><img src="img\bolinhaverde.png" alt="Capturar Bolinha" width="350" height="50"><br><br>
+<n><img src="img\bolinhaverde.png" alt="Capturar Bolinha" width="350" height="50"><br>
 
 ### Recuperando informações do cliente
 Ao receber uma mensagem, o atendimento automático recupera o nome do contato que a enviou e exibe no terminal.<br><br>
-<n><img src="img\telefone_cliente.png" alt="Capturar Nome" width="350" height="50"><br><br>
+<n><img src="img\telefone_cliente.png" alt="Capturar Nome" width="350" height="50"><br>
 
 ### Recuperando a mensagem
 Também é possível recuperar a última mensagem enviada pelo cliente e exibi-la no terminal.<br><br>
-<n><img src="img\ultima_msg.png" alt="Capturar Mensagem" width="200" height="100"><br><br>
+<n><img src="img\ultima_msg.png" alt="Capturar Mensagem" width="200" height="100">
 
 ### Exibindo mensagem de boas-vindas
 
@@ -142,7 +142,7 @@ Voltar para o contato padrão fixado ao topo(uma conversa com você mesmo). Para
 
 ### Buscando novas mensagens<br>
 Por fim, o atendimento automático entra em loop e busca por novas mensagens enviadas pelo cliente.<br><br>
-<n><img src="img\buscando_mensagens.png" alt="Buscando novas mensagem" width="260" height="150"><br><br>
+<n><img src="img\buscando_mensagens.png" alt="Buscando novas mensagem" width="260" height="150">
 
 
 ## <b>Contribuindo</b>
