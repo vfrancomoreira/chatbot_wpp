@@ -112,12 +112,12 @@ import requests
 ## <b>Funcionamento do Sistema</b>
 
 ### Abrindo o WhatsApp
-Para começar a utilizar o atendimento automático, é necessário abrir o site do WhatsApp e capturar o QR Code para ter acesso à sua conta.<br><br>
+Para começar a utilizar o atendimento automático, é necessário abrir o site do WhatsApp e capturar o QR Code para ter acesso à sua conta.<br>
 <n><img src="img/captura_qrCode.png" alt="Capturar QR Code" width="340" height="290"><br>
 
 
 ### Identificando uma nova mensagem
-Caso haja uma nova mensagem, o sistema identifica que ela não foi visualizada e clica na conversa para abri-la. Isso é indicado por um círculo verde de notificação.<br><br>
+Caso haja uma nova mensagem, o sistema identifica que ela não foi visualizada e clica na conversa para abri-la. Isso é indicado por um círculo verde de notificação.<br>
 <n><img src="img\bolinhaverde.png" alt="Capturar Bolinha" width="350" height="50"><br>
 
 ### Recuperando informações do cliente
@@ -125,7 +125,7 @@ Ao receber uma mensagem, o atendimento automático recupera o nome do contato qu
 <n><img src="img\telefone_cliente.png" alt="Capturar Nome" width="350" height="50"><br>
 
 ### Recuperando a mensagem
-Também é possível recuperar a última mensagem enviada pelo cliente e exibi-la no terminal.<br><br>
+Também é possível recuperar a última mensagem enviada pelo cliente e exibi-la no terminal.<br>
 <n><img src="img\ultima_msg.png" alt="Capturar Mensagem" width="200" height="100">
 
 ### Exibindo mensagem de boas-vindas
@@ -133,18 +133,18 @@ Também é possível recuperar a última mensagem enviada pelo cliente e exibi-l
 <n> No código abaixo, o bot vai enviar uma mensagem de boas vindas. Após isso, ele começará a interagir com o robô, através dos números passados no menu em PHP.<br><br>
 ```php
 <?php
-$menu = """
+$menu = "
 Olá, obrigado por entrar em contato com a Pizzaria GitHub.
 Já vamos começar seu atendimento.
 Escolha a opção de sua prefêrencia.
 ----------------Pizza---------------
 *1* - Pizza de mussarela --- R$20,00
-*2*- Pizza de calabresa --- R$20,00""";
+*2*- Pizza de calabresa --- R$20,00";
 ?>
 ```
 
 ### Responder a mensagem<br>
-As respostas são realizadas internamente por meio do PHP e do MySQL, interagindo com o Python e a biblioteca Requests, que se comunica com o servidor por meio do verbo HTTP GET. Isso permite que o atendimento automático responda às mensagens recebidas pelo cliente.<br><br>
+As respostas são realizadas internamente por meio do PHP e do MySQL, interagindo com o Python e a biblioteca Requests, que se comunica com o servidor por meio do verbo HTTP GET. Isso permite que o atendimento automático responda às mensagens recebidas pelo cliente.<br>
 <n><img src="img\resposta.png" alt="Capturar Mensagem" width="350" height="140">
 
 
