@@ -51,20 +51,19 @@ Este sistema é um assistente que permite enviar mensagens no WhatsApp usando Py
 
 ## <b>Instalação e Uso</b><br>
 
-Para instalar e usar o Chat de Atendimento Automático, siga os passos abaixo:
-
-<n>1. Instale o Python versão 3.9 e os requisitos necessários na sua máquina: 
+Para usar o Chat de Atendimento Automático, siga os passos abaixo:
 
 #### <b>Python</b>
-Para rodar o sistema você deverá instalar a versão 3.9 do Python e as seguintes bibliotecas:<br>
+Instale a versão 3.9 do Python e as seguintes bibliotecas:<br>
 ```python
 pip install selenium
 pip install requests
 ```
 
-<n>2. Instale o WebDriver e adicione o caminho do arquivo a pasta PATH:
+
 
 #### <b>WebDriver</b>
+
 Instale o WebDriver de sua preferência conforme o navegador qyue você está utilizando. No meu caso foi o  Microsoft Edge Driver(recomendável a versão Beta independente do navegador que você irá utilizar): [Microsoft Edge Driver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver//)<br>
 
 1. Instale o driver compativel com a versão do seu navegador e sistema operacional do seu computador.<br>
@@ -78,8 +77,11 @@ Instale o WebDriver de sua preferência conforme o navegador qyue você está ut
     edge_driver --version
     ```
 
-<n>3. Instale o [XAMPP](https://www.apachefriends.org/pt_br/download.html) um software que contém alguns componentes do servidor web que serão extremamente úteis para o funcionamento do sistema. Serão utilizados servidores como, Apache e MySQL, veja o exemplo:
+
 #### <b>XAMPP</b>
+
+<n>Instale o [XAMPP](https://www.apachefriends.org/pt_br/download.html) um software que contém alguns componentes do servidor web que serão extremamente úteis para o funcionamento do sistema. Serão utilizados servidores como, Apache e MySQL, veja o exemplo:
+
 Depois de fazer a instalação, sempre que utilizar o programa ative o Apache e o MySQL.<br>
 <n><img src="img/xampp_2.png" alt="XAMPP" width="250" height="200"><br>
 
