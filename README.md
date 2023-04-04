@@ -1,5 +1,5 @@
 # <b>Chat de atendimento automático - WhatsApp</b>
-Este é um projeto que visa criar um chat de atendimento automático para delivery ou entrega de conteúdo de marketing digital.Usando API além de ser integrado com as linguagens PHP e Python, com a ajuda das bibliotecas Selenium e Requests.<br><br>
+Este é um projeto que visa criar um chat de atendimento automático para delivery ou entrega de conteúdo de marketing digital. Usando API além de ser integrado com as linguagens PHP e Python, com a ajuda das bibliotecas Selenium e Requests.<br><br>
 
 ## <b>Indíce</b>
 - [O que é o sistema?](#o-que-é-este-sistema)
@@ -13,12 +13,15 @@ Este é um projeto que visa criar um chat de atendimento automático para delive
 - [Importações](#importações)
 
 - [Funcionamento do sistema](#funcionamento-do-sistema)
-    - [Abrindo o navegador](#1-abrir-o-site-do-whatsapp)
-    - [Clicando no círculo verde](#círculo-de-notificação-verde)
-    - [Recuperar o telefone do cliente](#recuperar-o-telefone-do-cliente)
-    - [Recuperar a mensagem do cliente](#recuperar-a-mensagem)
-    - [Responder a mensagem do cliente](#responder-a-mensagem)
-    - [Voltar ao contato pardão](#contato-padrão)
+    - [Abrindo o WhatsApp](#abrindo-o-whatsapp)
+    - [Identificando uma nova mensagem](#identificando-uma-nova-mensagem)
+    - [Recuperando informações do cliente](#recuperando-informações-do-cliente)
+    - [Recuperar a mensagem](#recuperar-a-mensagem)
+    - [Exibindo mensagem de boas-vindas](#exibindo-mensagem-de-boas-vindas)
+    - [Responder a mensagem](#responder-a-mensagem)
+    - [Retornando ao contato pardão](#retornando-ao-contato-padrão)
+    - [Buscando novas mensagens](#buscando-novas-mensagens)
+- [Contribuindo](#contribuindo)
 
 - [Créditos](#créditos)
 
@@ -109,7 +112,7 @@ Também é possível recuperar a última mensagem enviada pelo cliente e exibi-l
 
 ### Exibindo mensagem de boas-vindas
 
-<n> No exemplo acima, o usuário vai receber uma mensagem de boas vindas. Após isso, ele começará a interagir com o robô, através dos números passados no menu em PHP.<br><br>
+<n> No código abaixo, o bot vai enviar uma mensagem de boas vindas. Após isso, ele começará a interagir com o robô, através dos números passados no menu em PHP.<br><br>
 ```php
 <?php
 $menu = """
@@ -121,7 +124,6 @@ Escolha a opção de sua prefêrencia.
 *2*- Pizza de calabresa --- R$20,00""";
 ?>
 ```
-<br>
 
 ### Responder a mensagem<br>
 As respostas são realizadas internamente por meio do PHP e do MySQL, interagindo com o Python e a biblioteca Requests, que se comunica com o servidor por meio do verbo HTTP GET. Isso permite que o atendimento automático responda às mensagens recebidas pelo cliente.<br><br>
@@ -133,7 +135,7 @@ Voltar para o contato padrão fixado ao topo(uma conversa com você mesmo). Para
 <n><img src="img\contato_padrao.png" alt="Capturar Mensagem" width="355" height="60">
 
 
-### Buscando novas mensagens.<br>
+### Buscando novas mensagens<br>
 Por fim, o atendimento automático entra em loop e busca por novas mensagens enviadas pelo cliente.<br><br>
 <n><img src="img\buscando_mensagens.png" alt="Buscando novas mensagem" width="260" height="150"><br><br>
 
