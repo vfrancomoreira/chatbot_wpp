@@ -27,7 +27,7 @@ Use o WhatsApp automatizado que pode ser usado em delivery ou entrega de conteú
 <br><br>
 
 ## <b>O que é este sistema?</b>
-Este sistema é um assistente que permite enviar mensagens no WhatsApp usando uma Python, PHP e MySQL.<br><br>
+Este sistema é um assistente que permite enviar mensagens no WhatsApp usando Python, PHP e MySQL.<br><br>
 
 
 ## <b>Configurações</b><br><br>
