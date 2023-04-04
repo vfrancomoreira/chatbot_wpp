@@ -156,4 +156,4 @@ Para contribuir, basta abrir uma issue descrevendo sua sugestão ou problema. Se
 Este projeto foi inspirado no Instrutor Victor Souza disponível em [Edita Código](https://editacodigo.com.br/index/), que foi adaptado para atender às necessidades deste projeto.
 
 ## <b>Licença</b>
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](chatbot_wpp\LICENCE) para mais informações.
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENCE) para mais informações.
