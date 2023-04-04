@@ -53,7 +53,7 @@ Instale o WebDriver de sua preferência conforme o navegador qyue você está ut
 
 
 #### <b>XAMPP</b>
-3.1 Depois de fazer a instalação, sempre que utilizar o programa ative o Apache e o MySQL.<br><br>
+Depois de fazer a instalação, sempre que utilizar o programa ative o Apache e o MySQL.<br><br>
 <n><img src="img/xampp_2.png" alt="Capturar QR Code" width="250" height="200"><br><br>
 
 ## <b>Importações</b>
