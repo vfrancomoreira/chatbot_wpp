@@ -80,12 +80,22 @@ Instale o WebDriver de sua preferência conforme o navegador qyue você está ut
 
 <n>3. Instale o [XAMPP](https://www.apachefriends.org/pt_br/download.html) um software que contém alguns componentes do servidor web que serão extremamente úteis para o funcionamento do sistema. Serão utilizados servidores como, Apache e MySQL, veja o exemplo:
 #### <b>XAMPP</b>
-Depois de fazer a instalação, sempre que utilizar o programa ative o Apache e o MySQL.<br><br>
+Depois de fazer a instalação, sempre que utilizar o programa ative o Apache e o MySQL.<br>
 <n><img src="img/xampp_2.png" alt="XAMPP" width="250" height="200"><br>
 
 Ativando você terá acesso ao phpMyAdmin(banco de dados), digite este endereço em seu navegador:<br>
-<img src="img/acesso_ao_banco.png" alt="Acesso" width="250" height="50"><br>
+<img src="img/acesso_ao_banco.png" alt="Acesso" width="250" height="40"><br>
 
+Esta será a interface do phpMyAdimin:<br>
+<img src="img/banco.png" alt="Acesso" width="350" height="190"><br>
+
+Crie as tabelas conforme o código principal:<br>
+<img src="img/tabelas.png" alt="Tabelas" width="150" height="120"><br>
+
+Nesta imagem vemos a tabela 'histórico' criada, um exemplo de como funciona o banco de dados, a forma que ele interage com o usuário e o sistema:<br>
+<img src="img/exemplo_banco.png" alt="Exemplo do banco" width="350" height="200"><br>
+Coluna 'cliente1' é as mensagens do usuário.<br>
+Coluna 'bot' é as mensagens do sistema.
 ## <b>Importações</b>
 
 <br>
@@ -139,12 +149,12 @@ As respostas são realizadas internamente por meio do PHP e do MySQL, interagind
 
 
 ### Retornando ao contato padrão
-Voltar para o contato padrão fixado ao topo(uma conversa com você mesmo). Para fazer isso basta mandar uma mensagem para o seu próprio numero de telefone.<br><br>
+Voltar para o contato padrão fixado ao topo(uma conversa com você mesmo). Para fazer isso basta mandar uma mensagem para o seu próprio numero de telefone.<br>
 <n><img src="img\contato_padrao.png" alt="Capturar Mensagem" width="355" height="60">
 
 
 ### Buscando novas mensagens<br>
-Por fim, o atendimento automático entra em loop e busca por novas mensagens enviadas pelo cliente.<br><br>
+Por fim, o atendimento automático entra em loop e busca por novas mensagens enviadas pelo cliente.<br>
 <n><img src="img\buscando_mensagens.png" alt="Buscando novas mensagem" width="260" height="150">
 
 
