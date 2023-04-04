@@ -40,17 +40,17 @@ pip install requests
 #### <b>WebDriver</b>
 Instale o WebDriver de sua preferência conforme o navegador qyue você está utilizando. No meu caso foi o  Microsoft Edge Driver(recomendável a versão Beta independente do navegador que você irá utilizar): [Microsoft Edge Driver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver//)<br>
 
-1. Instale o driver compativel com a versão do seu navegador e sistema operacional do seu computador.<br><br>
+1. Instale o driver compativel com a versão do seu navegador e sistema operacional do seu computador.<br>
 
-2. Extraia o arquivo baixado para uma pasta de seu computador. <br><br>
+2. Extraia o arquivo baixado para uma pasta de seu computador. <br>
 
-3. Adicione a pasta onde o Microsoft Edge Driver foi extraído ao PATH do sistema.<br><br>
+3. Adicione a pasta onde o Microsoft Edge Driver foi extraído ao PATH do sistema.<br>
 
 4. Para testar a instalação do Microsoft Edge Driver, abra o prompt de comando e execute o seguinte comando:<br>
     ```prompt
     edge_driver --version
     ```
-<br>
+
 
 #### <b>XAMPP</b>
 3.1 Depois de fazer a instalação, sempre que utilizar o programa ative o Apache e o MySQL.<br><br>
