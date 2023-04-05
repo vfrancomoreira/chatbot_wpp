@@ -190,4 +190,4 @@ R: Sim, o sistema foi testado em sistemas operacionais Windows, MacOS e Linux.
 Este projeto foi inspirado no Instrutor Victor Souza disponível em [Edita Código](https://editacodigo.com.br/index/), que foi adaptado para atender às necessidades deste projeto.
 
 ## <b>Licença</b>
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENCE](LICENCE) para mais informações.
+Este projeto está licenciado sob a licença Apache. Veja o arquivo [LICENCE](LICENCE) para mais informações.
